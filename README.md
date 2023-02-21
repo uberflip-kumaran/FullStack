@@ -2,7 +2,7 @@
 
 Congratulations, you have been asked to complete our Full Stack candidate proficiency assignment!
 
-You will have **3 days** starting when you receive this test to return the full working source code as a Pull Request against a fork of this repository. Please thoroughly read the attached set of instructions. You will be creating a mini web app that uses React, Node, Express, Typescript, Tailwindcss, Jest and Postgres. This app will consist of a backend Express server that will deliver api call to a frontend React app to be rendered in the browser.
+You will have **3-5 days** starting when you receive this test to return the full working source code as a Pull Request against a fork of this repository. Please thoroughly read the attached set of instructions. You will be creating a mini web app that uses React, Node, Express, Typescript, Tailwindcss, Jest and Postgres. This app will consist of a backend Express server that will deliver api call to a frontend React app to be rendered in the browser.
 
 ## Task Requirements
 
