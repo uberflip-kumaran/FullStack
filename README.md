@@ -7,7 +7,7 @@ You will have **3 days** starting when you receive this test to return the full 
 ## Task Requirements
 
 1. You are required to write the code on Register page that makes a request to your Register API endpoint that allows the user to registers with a valid:
-   Email, First Name, Last Name, Password. Password must be encrypted in the database.
+   Email, First Name, Last Name, and Password. Password must be encrypted in the database.
 
    <img src="assets/registerPage.png" alt="Register Page" style="height: 250px; width:350px;"/>
 
@@ -105,9 +105,10 @@ If you have any questions, require further details or get stuck please do not he
 - city TEXT NOT NULL,
 - image_url TEXT NOT NULL,
 - featured BOOLEAN NOT NULL DEFAULT FALSE,
-- created_at TIMESTAMP DEFAULT NOW()
+- created_at TIMESTAMP DEFAULT NOW()  
 
-- If you are having trouble setting up the docker environment, feel free to use the scripts to load a local database and develop locally.
+
+If you are having trouble setting up the docker environment, feel free to use the scripts to load a local database and develop locally.
 
 ## Submission
 
