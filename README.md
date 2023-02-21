@@ -2,16 +2,16 @@
 
 Congratulations, you have been asked to complete our Full Stack candidate proficiency assignment!
 
-You will have **3-5 days** starting when you receive this test to return the full working source code as a Pull Request against a fork of this repository. Please thoroughly read the attached set of instructions. You will be creating a mini web app that uses React, Node, Express, Typescript, Tailwindcss, Jest and Postgres. This app will consist of a backend Express server that will deliver api call to a frontend React app to be rendered in the browser.
+You will have **3-5 days** starting when you receive this test to return the full working source code as a Pull Request against a fork of this repository. Please thoroughly read the attached set of instructions. You will be creating a mini web app that uses React, Node, Express, Typescript, Tailwindcss, Jest and Postgres. This app will consist of a backend Express server that will respond to front end requests made by a frontend React app.
 
 ## Task Requirements
 
-1. You are required to write the code on Register page that makes a request to your Register API endpoint that allows the user to registers with a valid:
+1. You are required to write the code on Register page that makes a request to your Register API endpoint. This request will register a user with a valid:
    Email, First Name, Last Name, and Password. Password must be encrypted in the database.
 
    <img src="assets/registerPage.png" alt="Register Page" style="height: 250px; width:350px;"/>
 
-2. Then you are required to write the code for the Login page and that makes a request to your Login API endpoint that allows the user to recieve a jwt token and which will allow a user to view the Countries page.
+2. Next, you are required to write the code for the Login page and that makes a request to your Login API endpoint. This request will allows the user to recieve a jwt token. This jwt token is required for a user to make requests to other protected API endpoints, for example the Countries API.
 
    <img src="assets/loginPage.png" alt="Login Page" style="height: 250px; width:350px;"/>
 
